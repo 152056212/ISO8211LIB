@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ENC FILE READER
 
 编译器：GCC编译器，即：gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12)；
@@ -8,3 +9,9 @@ ENC FILE READER
 
 
 
+=======
+iso8211lib
+==========
+
+This repository is a git copy of http://home.gdal.org/projects/iso8211/
+>>>>>>> init enc file reader by sjg at 2020/01/09
