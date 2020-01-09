@@ -1,0 +1,383 @@
+# depslib dependency file v1.0
+1577267026 source:/mnt/hgfs/git/isoendtest/8211dump.cpp
+	<stdio.h>
+	"iso8211.h"
+	"cpl_vsi.h"
+
+1355911182 /mnt/hgfs/git/isoendtest/iso8211.h
+	"cpl_port.h"
+
+1355911182 /mnt/hgfs/git/isoendtest/cpl_port.h
+	"cpl_config.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdarg.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+	<wce_time.h>
+	<wce_errno.h>
+	<errno.h>
+	<locale.h>
+	<strings.h>
+	<dbmalloc.h>
+	<dmalloc.h>
+
+1576570297 /mnt/hgfs/git/isoendtest/cpl_config.h
+
+1355911182 /mnt/hgfs/git/isoendtest/cpl_vsi.h
+	"cpl_port.h"
+	<unistd.h>
+	<sys/stat.h>
+	<wce_stat.h>
+	"cpl_error.h"
+
+1355911182 /mnt/hgfs/git/isoendtest/cpl_error.h
+	"cpl_port.h"
+
+1577275673 source:/mnt/hgfs/git/isoendtest/8211view.cpp
+	<stdio.h>
+	"iso8211.h"
+
+1355911182 source:/mnt/hgfs/git/isoendtest/cpl_conv.cpp
+	"cpl_conv.h"
+	"cpl_string.h"
+	"cpl_vsi.h"
+	"cpl_multiproc.h"
+	"cpl_wince.h"
+	<wce_errno.h>
+	<locale.h>
+
+1355911182 /mnt/hgfs/git/isoendtest/cpl_conv.h
+	"cpl_port.h"
+	"cpl_vsi.h"
+	"cpl_error.h"
+
+1355911182 /mnt/hgfs/git/isoendtest/cpl_string.h
+	"cpl_vsi.h"
+	"cpl_error.h"
+	"cpl_conv.h"
+	<string>
+
+1355911182 /mnt/hgfs/git/isoendtest/cpl_multiproc.h
+	"cpl_port.h"
+
+1355911182 source:/mnt/hgfs/git/isoendtest/cpl_dir.cpp
+	"cpl_conv.h"
+	"cpl_string.h"
+	<io.h>
+	<wce_io.h>
+	<sys/types.h>
+	<dirent.h>
+
+1355911182 source:/mnt/hgfs/git/isoendtest/cpl_error.cpp
+	"cpl_error.h"
+	"cpl_vsi.h"
+	"cpl_conv.h"
+	"cpl_multiproc.h"
+	"cpl_wince.h"
+	<wce_stdlib.h>
+
+1355911182 source:/mnt/hgfs/git/isoendtest/cpl_multiproc.cpp
+	"cpl_multiproc.h"
+	"cpl_conv.h"
+	<time.h>
+	<wce_time.h>
+	<windows.h>
+	"cpl_win32ce_api.h"
+	<pthread.h>
+	<time.h>
+
+1355911182 source:/mnt/hgfs/git/isoendtest/cpl_path.cpp
+	"cpl_conv.h"
+	"cpl_string.h"
+	"cpl_multiproc.h"
+
+1355911182 source:/mnt/hgfs/git/isoendtest/cpl_string.cpp
+	"cpl_string.h"
+	"cpl_vsi.h"
+	<wce_errno.h>
+	<wce_string.h>
+
+1355911182 source:/mnt/hgfs/git/isoendtest/cpl_vsi_mem.cpp
+	"cpl_vsi_private.h"
+	"cpl_string.h"
+	"cpl_multiproc.h"
+	<map>
+	<wce_errno.h>
+
+1355911182 /mnt/hgfs/git/isoendtest/cpl_vsi_private.h
+	"cpl_vsi.h"
+	"cpl_wince.h"
+	<wce_errno.h>
+	<map>
+	<vector>
+	<string>
+
+1355911182 source:/mnt/hgfs/git/isoendtest/cpl_vsil.cpp
+	"cpl_vsi_private.h"
+
+1355911182 source:/mnt/hgfs/git/isoendtest/cpl_vsil_unix_stdio_64.cpp
+	"cpl_port.h"
+	"cpl_vsi_private.h"
+	"cpl_string.h"
+	<unistd.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<dirent.h>
+
+1355911182 source:/mnt/hgfs/git/isoendtest/cpl_vsil_win32.cpp
+	"cpl_vsi_private.h"
+	<windows.h>
+	"cpl_string.h"
+	<sys/stat.h>
+	<sys/types.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<wce_io.h>
+	<wce_errno.h>
+	<wce_stdio.h>
+	<wce_stat.h>
+	"cpl_win32ce_api.h"
+
+1355911182 source:/mnt/hgfs/git/isoendtest/cpl_vsisimple.cpp
+	"cpl_config.h"
+	"cpl_port.h"
+	"cpl_vsi.h"
+	"cpl_error.h"
+	<unistd.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<wce_io.h>
+	<wce_stat.h>
+	<wce_stdio.h>
+	<wce_string.h>
+	<wce_time.h>
+	<sys/stat.h>
+	<time.h>
+
+1355911182 source:/mnt/hgfs/git/isoendtest/ddffield.cpp
+	"iso8211.h"
+	"cpl_conv.h"
+
+1355911182 source:/mnt/hgfs/git/isoendtest/ddffielddefn.cpp
+	"iso8211.h"
+	"cpl_string.h"
+	<ctype.h>
+
+1355911182 source:/mnt/hgfs/git/isoendtest/ddfmodule.cpp
+	"iso8211.h"
+	"cpl_conv.h"
+
+1355911182 source:/mnt/hgfs/git/isoendtest/ddfrecord.cpp
+	"iso8211.h"
+	"cpl_conv.h"
+
+1355911182 source:/mnt/hgfs/git/isoendtest/ddfsubfielddefn.cpp
+	"iso8211.h"
+	"cpl_conv.h"
+
+1355911182 source:/mnt/hgfs/git/isoendtest/ddfutils.cpp
+	"iso8211.h"
+	"cpl_conv.h"
+
+1577267028 source:/mnt/hgfs/git/isoendtest/main.cpp
+
+1355911182 source:/mnt/hgfs/git/isoendtest/timetest.cpp
+	<stdio.h>
+	"iso8211.h"
+
+1577268794 source:/mnt/hgfs/git/isoendtest/mkcatalog.cpp
+
+1577267026 source:/mnt/hgfs/git/isoenstest/8211dump.cpp
+	<stdio.h>
+	"iso8211.h"
+	"cpl_vsi.h"
+
+1355911182 /mnt/hgfs/git/isoenstest/iso8211.h
+	"cpl_port.h"
+
+1355911182 /mnt/hgfs/git/isoenstest/cpl_port.h
+	"cpl_config.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdarg.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+	<wce_time.h>
+	<wce_errno.h>
+	<errno.h>
+	<locale.h>
+	<strings.h>
+	<dbmalloc.h>
+	<dmalloc.h>
+
+1576570297 /mnt/hgfs/git/isoenstest/cpl_config.h
+
+1355911182 /mnt/hgfs/git/isoenstest/cpl_vsi.h
+	"cpl_port.h"
+	<unistd.h>
+	<sys/stat.h>
+	<wce_stat.h>
+	"cpl_error.h"
+
+1355911182 /mnt/hgfs/git/isoenstest/cpl_error.h
+	"cpl_port.h"
+
+1577277065 source:/mnt/hgfs/git/isoenstest/8211view.cpp
+	<stdio.h>
+	"iso8211.h"
+
+1355911182 source:/mnt/hgfs/git/isoenstest/cpl_conv.cpp
+	"cpl_conv.h"
+	"cpl_string.h"
+	"cpl_vsi.h"
+	"cpl_multiproc.h"
+	"cpl_wince.h"
+	<wce_errno.h>
+	<locale.h>
+
+1355911182 /mnt/hgfs/git/isoenstest/cpl_conv.h
+	"cpl_port.h"
+	"cpl_vsi.h"
+	"cpl_error.h"
+
+1355911182 /mnt/hgfs/git/isoenstest/cpl_string.h
+	"cpl_vsi.h"
+	"cpl_error.h"
+	"cpl_conv.h"
+	<string>
+
+1355911182 /mnt/hgfs/git/isoenstest/cpl_multiproc.h
+	"cpl_port.h"
+
+1355911182 source:/mnt/hgfs/git/isoenstest/cpl_dir.cpp
+	"cpl_conv.h"
+	"cpl_string.h"
+	<io.h>
+	<wce_io.h>
+	<sys/types.h>
+	<dirent.h>
+
+1355911182 source:/mnt/hgfs/git/isoenstest/cpl_error.cpp
+	"cpl_error.h"
+	"cpl_vsi.h"
+	"cpl_conv.h"
+	"cpl_multiproc.h"
+	"cpl_wince.h"
+	<wce_stdlib.h>
+
+1355911182 source:/mnt/hgfs/git/isoenstest/cpl_multiproc.cpp
+	"cpl_multiproc.h"
+	"cpl_conv.h"
+	<time.h>
+	<wce_time.h>
+	<windows.h>
+	"cpl_win32ce_api.h"
+	<pthread.h>
+	<time.h>
+
+1355911182 source:/mnt/hgfs/git/isoenstest/cpl_path.cpp
+	"cpl_conv.h"
+	"cpl_string.h"
+	"cpl_multiproc.h"
+
+1355911182 source:/mnt/hgfs/git/isoenstest/cpl_string.cpp
+	"cpl_string.h"
+	"cpl_vsi.h"
+	<wce_errno.h>
+	<wce_string.h>
+
+1355911182 source:/mnt/hgfs/git/isoenstest/cpl_vsi_mem.cpp
+	"cpl_vsi_private.h"
+	"cpl_string.h"
+	"cpl_multiproc.h"
+	<map>
+	<wce_errno.h>
+
+1355911182 /mnt/hgfs/git/isoenstest/cpl_vsi_private.h
+	"cpl_vsi.h"
+	"cpl_wince.h"
+	<wce_errno.h>
+	<map>
+	<vector>
+	<string>
+
+1355911182 source:/mnt/hgfs/git/isoenstest/cpl_vsil.cpp
+	"cpl_vsi_private.h"
+
+1355911182 source:/mnt/hgfs/git/isoenstest/cpl_vsil_unix_stdio_64.cpp
+	"cpl_port.h"
+	"cpl_vsi_private.h"
+	"cpl_string.h"
+	<unistd.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<dirent.h>
+
+1355911182 source:/mnt/hgfs/git/isoenstest/cpl_vsil_win32.cpp
+	"cpl_vsi_private.h"
+	<windows.h>
+	"cpl_string.h"
+	<sys/stat.h>
+	<sys/types.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<wce_io.h>
+	<wce_errno.h>
+	<wce_stdio.h>
+	<wce_stat.h>
+	"cpl_win32ce_api.h"
+
+1355911182 source:/mnt/hgfs/git/isoenstest/cpl_vsisimple.cpp
+	"cpl_config.h"
+	"cpl_port.h"
+	"cpl_vsi.h"
+	"cpl_error.h"
+	<unistd.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<wce_io.h>
+	<wce_stat.h>
+	<wce_stdio.h>
+	<wce_string.h>
+	<wce_time.h>
+	<sys/stat.h>
+	<time.h>
+
+1355911182 source:/mnt/hgfs/git/isoenstest/ddffield.cpp
+	"iso8211.h"
+	"cpl_conv.h"
+
+1355911182 source:/mnt/hgfs/git/isoenstest/ddffielddefn.cpp
+	"iso8211.h"
+	"cpl_string.h"
+	<ctype.h>
+
+1355911182 source:/mnt/hgfs/git/isoenstest/ddfmodule.cpp
+	"iso8211.h"
+	"cpl_conv.h"
+
+1355911182 source:/mnt/hgfs/git/isoenstest/ddfrecord.cpp
+	"iso8211.h"
+	"cpl_conv.h"
+
+1355911182 source:/mnt/hgfs/git/isoenstest/ddfsubfielddefn.cpp
+	"iso8211.h"
+	"cpl_conv.h"
+
+1355911182 source:/mnt/hgfs/git/isoenstest/ddfutils.cpp
+	"iso8211.h"
+	"cpl_conv.h"
+
+1577267028 source:/mnt/hgfs/git/isoenstest/main.cpp
+
+1577268794 source:/mnt/hgfs/git/isoenstest/mkcatalog.cpp
+
